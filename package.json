@@ -2,12 +2,12 @@
   "name": "styled-components-project",
   "private": true,
   "scripts": {
-    "build": "yarn workspace styled-components build",
-    "postbuild": "cp README.md packages/styled-components/",
-    "postinstall": "yarn workspace styled-components generateErrors",
-    "lint": "yarn workspace styled-components lint",
-    "size": "yarn workspace styled-components lint:size",
-    "test": "yarn workspace styled-components test"
+    "build": "yarn workspace @gendius/styled-components build",
+    "postbuild": "cp README.md packages/@gendius/styled-components/",
+    "postinstall": "yarn workspace @gendius/styled-components generateErrors",
+    "lint": "yarn workspace @gendius/styled-components lint",
+    "size": "yarn workspace @gendius/styled-components lint:size",
+    "test": "yarn workspace @gendius/styled-components test"
   },
   "author": "Glen Maddern",
   "license": "MIT",
