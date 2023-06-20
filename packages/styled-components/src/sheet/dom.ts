@@ -29,6 +29,7 @@ export const makeStyleTag = (target?: HTMLElement): HTMLStyleElement => {
 
   style.setAttribute(SC_ATTR, SC_ATTR_ACTIVE);
   style.setAttribute(SC_ATTR_VERSION, SC_VERSION);
+  style.textContent = ' ';
 
   const nonce = getNonce();
 
