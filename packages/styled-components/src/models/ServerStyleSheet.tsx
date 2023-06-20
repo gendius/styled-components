@@ -31,7 +31,7 @@ export default class ServerStyleSheet {
     ];
     const htmlAttr = joinStringArray(attrs.filter(Boolean) as string[], ' ');
 
-    return `<style ${htmlAttr}>${css}</style>`;
+    return `<style ${htmlAttr}>${css === '' ? ' ' : css}</style>`;
   };
 
   collectStyles(children: any): JSX.Element {
